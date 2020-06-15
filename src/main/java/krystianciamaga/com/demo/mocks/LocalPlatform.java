@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.mocks;
 
 
@@ -17,3 +18,4 @@ public class LocalPlatform {
         this.runClass = runClass;
     }
 }
+*/

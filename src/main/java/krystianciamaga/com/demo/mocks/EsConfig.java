@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.mocks;
 
 
@@ -36,4 +37,4 @@ public class EsConfig {
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchRestTemplate(client());
     }
-}
+}*/
