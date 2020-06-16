@@ -29,12 +29,13 @@ public class AssetServiceImlp implements AssetService {
     }
 
     @Override
-    public Asset findAssetById(String key) {
+    public Asset findAssetById(String id) {
 
-        Optional<Asset> asset = Optional.ofNullable(assetRepository.findById(key)
-                .orElseThrow(()->new RuntimeException("Asset not found")));
+        Optional<Asset> asset =assetRepository.findById(id);
 
-        return asset.get();
+        return asset.orElse(null);
+
+
     }
 
     @Override
@@ -47,12 +48,11 @@ public class AssetServiceImlp implements AssetService {
     @Override
     public Asset deleteAsset(String id) {
 
-        Optional<Asset> asset = Optional.ofNullable(assetRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Asset not found")));
+        Optional<Asset> asset =assetRepository.findById(id);
 
         assetRepository.deleteById(id);
 
-        return asset.get();
+        return asset.orElse(null);
 
     }
 
