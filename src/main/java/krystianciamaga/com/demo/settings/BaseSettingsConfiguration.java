@@ -27,7 +27,13 @@ import java.io.File;
 public class BaseSettingsConfiguration {
 
 
+
+
     private BaseSetting baseSettings;
 
+
+    public void setBaseSettings(BaseSetting baseSettings){
+        this.baseSettings=baseSettings;
+    }
 
 }

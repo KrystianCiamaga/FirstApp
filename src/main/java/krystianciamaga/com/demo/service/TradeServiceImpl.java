@@ -50,15 +50,17 @@ public class TradeServiceImpl implements TradeService {
     @Override
     public void addTrade(Trade trade) {
 
+/*
         if(tradeRepository.existsById(trade.getId())){
             throw new RuntimeException();
         }else {
 
             tradeRepository.save(trade);
+*/
 
         }
 
-    }
+
 
 
     @Override
