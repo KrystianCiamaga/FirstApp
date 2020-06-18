@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.service;
 
 import krystianciamaga.com.demo.entity.Asset;
@@ -56,12 +57,15 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void updateProductById(Product product,String id) {
-     /*   Optional<Product> product = Optional.ofNullable(productRepository.findById(id)
+     */
+/*   Optional<Product> product = Optional.ofNullable(productRepository.findById(id)
                 .orElseThrow(() -> new ProductNotFoundException(id)));
 
         Product newProduct = ProductMapper.mapProductDtoToProduct(productDto);
         newProduct.setId(product.get().getId());
 
-        productRepository.save(newProduct);*/
+        productRepository.save(newProduct);*//*
+
     }
 }
+*/

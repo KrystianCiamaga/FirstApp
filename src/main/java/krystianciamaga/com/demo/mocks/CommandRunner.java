@@ -35,9 +35,6 @@ public  class CommandRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-
-
-
         BaseSetting baseSettings1 = jacksonConfiguration.objectMapper().readValue(new File(path),BaseSetting.class);
 
         baseSettingsConfiguration.setBaseSettings(baseSettings1);

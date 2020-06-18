@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.repository;
 
 import krystianciamaga.com.demo.entity.Asset;
@@ -9,3 +10,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ProductRepository extends  JpaRepository<Product,String> {
 }
+*/

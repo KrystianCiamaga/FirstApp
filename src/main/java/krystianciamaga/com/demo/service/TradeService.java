@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.service;
 
 
@@ -21,3 +22,4 @@ public interface TradeService {
 
 
 }
+*/

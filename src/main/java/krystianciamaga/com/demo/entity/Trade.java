@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.entity;
 
 import lombok.AllArgsConstructor;
@@ -5,10 +6,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
 
 
-@Entity
+
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -19,3 +20,4 @@ public class Trade extends AbstractContent {
     private String clientName;
 }
 
+*/

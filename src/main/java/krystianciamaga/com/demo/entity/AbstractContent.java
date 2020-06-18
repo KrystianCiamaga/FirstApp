@@ -1,21 +1,24 @@
+/*
 package krystianciamaga.com.demo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
 
-import javax.persistence.*;
 import java.util.Date;
 
-@MappedSuperclass
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Document(indexName = "abstract",type = "abstract")
 public class AbstractContent {
+
 
    @Id
    private String id;
@@ -24,3 +27,4 @@ public class AbstractContent {
    private Date lastUpdateTime;
 }
 
+*/

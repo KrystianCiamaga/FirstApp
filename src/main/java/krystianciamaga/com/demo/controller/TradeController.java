@@ -1,3 +1,4 @@
+/*
 package krystianciamaga.com.demo.controller;
 
 
@@ -49,3 +50,4 @@ public class TradeController {
 
 
 }
+*/

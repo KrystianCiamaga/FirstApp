@@ -1,7 +1,11 @@
+/*
+
 package krystianciamaga.com.demo.service;
 
 import krystianciamaga.com.demo.entity.Asset;
+import krystianciamaga.com.demo.mocks.EsConfig;
 import krystianciamaga.com.demo.repository.AssetRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
@@ -16,11 +20,13 @@ public class AssetServiceImlp implements AssetService {
    private final AssetRepository assetRepository;
 
 
+
     public AssetServiceImlp(AssetRepository assetRepository) {
         this.assetRepository = assetRepository;
     }
 
-    @Override
+
+  @Override
     public List<Asset> findAllAssets(int pageNumber, int pageSize) {
 
 
@@ -68,3 +74,4 @@ public class AssetServiceImlp implements AssetService {
 
     }
 }
+*/

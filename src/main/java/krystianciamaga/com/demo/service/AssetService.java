@@ -1,4 +1,4 @@
-package krystianciamaga.com.demo.service;
+/*package krystianciamaga.com.demo.service;
 
 
 import krystianciamaga.com.demo.entity.Asset;
@@ -7,8 +7,9 @@ import java.util.List;
 import java.util.Optional;
 
 
-public interface AssetService {
+public interface AssetService {*/
 
+/*
 
     List<Asset> findAllAssets(int pageNumber,int pageSize);
     Asset findAssetById(String id);
@@ -16,5 +17,6 @@ public interface AssetService {
     Asset deleteAsset(String id);
     Asset updateAssetById(Asset assetDto,String id);
 
+*/
 
-}
+
