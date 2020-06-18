@@ -51,19 +51,25 @@ public class TradeServiceImpl implements TradeService {
     @Override
     public void addTrade(Trade trade) {
 
+<<<<<<< HEAD
 */
 /*
+=======
+>>>>>>> parent of fb3f18a... .
         if(tradeRepository.existsById(trade.getId())){
             throw new RuntimeException();
         }else {
 
             tradeRepository.save(trade);
+<<<<<<< HEAD
 *//*
 
+=======
+>>>>>>> parent of fb3f18a... .
 
         }
 
-
+    }
 
 
     @Override
