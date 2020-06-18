@@ -25,7 +25,7 @@ public class EsConfig {
     public RestHighLevelClient client() {
         ClientConfiguration clientConfiguration
                 = ClientConfiguration.builder()
-                .connectedTo("localhost:9300")
+                .connectedTo("localhost:9200")
                 .build();
 
         return RestClients.create(clientConfiguration).rest();

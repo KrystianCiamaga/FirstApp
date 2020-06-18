@@ -6,6 +6,7 @@ import krystianciamaga.com.demo.service.AssetServiceImlp;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -37,7 +38,7 @@ public class AssetController {
 
 
     @PostMapping
-    public void addAsset(@RequestBody Asset assetDto){
+    public void addAsset(@RequestBody Asset assetDto) throws IOException {
         assetServiceImlp.addAsset(assetDto);
     }
 
