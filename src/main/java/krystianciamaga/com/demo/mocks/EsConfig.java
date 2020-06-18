@@ -1,4 +1,4 @@
-package krystianciamaga.com.demo.mocks;
+/*package krystianciamaga.com.demo.mocks;
 
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
@@ -36,4 +36,4 @@ public class EsConfig {
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchRestTemplate(client());
     }
-}
+}*/

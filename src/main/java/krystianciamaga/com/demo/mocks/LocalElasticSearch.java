@@ -20,15 +20,13 @@ public class LocalElasticSearch {
     public void start() throws NodeValidationException {
 
 
-        Settings settings = Settings.builder().put("cluster.name", "elasticsearch")
+        Settings settings = Settings.builder()
                 .put("path.home","/usr/local/etc/elasticsearch/")
                 .build();
 
 
 
-        Environment environment = new Environment(settings, Paths.get("/usr/local/etc/elasticsearch/"));
-
-        Node node = new Node(environment);
+        Node node = new Node(settings);
         node.start();
 
 
