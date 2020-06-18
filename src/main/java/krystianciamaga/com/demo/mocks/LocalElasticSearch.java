@@ -27,6 +27,7 @@ public class LocalElasticSearch {
 
 
 
+<<<<<<< HEAD
     public static void start() {
         Settings settings = Settings.builder()
                 .put("http.host", "localhost")
@@ -34,6 +35,16 @@ public class LocalElasticSearch {
                 .put("cluster.name", "test-cluster")
                 .put("node.name", "test-node")
                 .put(Environment.PATH_HOME_SETTING.getKey(), "/tmp").build();
+=======
+
+
+    public void start() throws NodeValidationException {
+
+
+        Settings settings = Settings.builder().put("cluster.name", "elasticsearch")
+                .put("path.home","/usr/local/etc/elasticsearch/")
+                .build();
+>>>>>>> parent of 961f7a2... .
 
         Node node = new PluginConfigurableNode(settings, Collections.singletonList(Netty4Plugin.class));
 
@@ -43,8 +54,15 @@ public class LocalElasticSearch {
             e.printStackTrace();
         }
 
+<<<<<<< HEAD
         //SpringApplication.run(DemoApplication.class, args);
     }
+=======
+        Environment environment = new Environment(settings, Paths.get("/usr/local/etc/elasticsearch/"));
+
+        Node node = new Node(environment);
+        node.start();
+>>>>>>> parent of 961f7a2... .
 
     private static class PluginConfigurableNode extends Node {
 

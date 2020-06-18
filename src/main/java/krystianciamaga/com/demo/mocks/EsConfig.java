@@ -40,5 +40,8 @@ public class EsConfig {
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchRestTemplate(client());
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 961f7a2... .
 }

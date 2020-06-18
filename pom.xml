@@ -60,22 +60,34 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
+<<<<<<< HEAD
             <version>7.7.1</version>
 
+=======
+            <version>7.6.0</version>
+>>>>>>> parent of 961f7a2... .
         </dependency>
 
         <dependency>
             <groupId> org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
+<<<<<<< HEAD
             <version>7.7.1</version>
 
+=======
+            <version>7.6.0</version>
+>>>>>>> parent of 961f7a2... .
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-client -->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-client</artifactId>
+<<<<<<< HEAD
             <version>7.7.1</version>
 
+=======
+            <version>7.6.0</version>
+>>>>>>> parent of 961f7a2... .
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.elasticsearch.plugin/transport-netty4-client -->
         <dependency>
@@ -86,12 +98,17 @@
         </dependency>
 
 
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/transport -->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>transport</artifactId>
             <version>7.7.1</version>
         </dependency>
+=======
+
+
+>>>>>>> parent of 961f7a2... .
 
 
 
