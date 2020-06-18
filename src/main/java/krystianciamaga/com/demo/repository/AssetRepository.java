@@ -1,4 +1,4 @@
-/*
+
 package krystianciamaga.com.demo.repository;
 
 import krystianciamaga.com.demo.entity.Asset;
@@ -13,4 +13,4 @@ public interface AssetRepository extends ElasticsearchRepository<Asset,String> {
 
 
 }
-*/
+

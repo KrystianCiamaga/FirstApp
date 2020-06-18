@@ -1,5 +1,7 @@
 package krystianciamaga.com.demo.mocks;
 
+import krystianciamaga.com.demo.entity.Asset;
+import krystianciamaga.com.demo.repository.AssetRepository;
 import krystianciamaga.com.demo.settings.BaseSetting;
 import krystianciamaga.com.demo.settings.BaseSettingsConfiguration;
 import krystianciamaga.com.demo.settings.JacksonConfiguration;
@@ -32,6 +34,9 @@ public  class CommandRunner implements CommandLineRunner {
     JacksonConfiguration jacksonConfiguration;
 
 
+    @Autowired
+    AssetRepository assetRepository;
+
     @Override
     public void run(String... args) throws Exception {
 
@@ -39,6 +44,10 @@ public  class CommandRunner implements CommandLineRunner {
 
         baseSettingsConfiguration.setBaseSettings(baseSettings1);
 
+
+        Asset asset = new Asset();
+        asset.setCategory("kategoria");
+        asset.setName("name");
 
 
 
