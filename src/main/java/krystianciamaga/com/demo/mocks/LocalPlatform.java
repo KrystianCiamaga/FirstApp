@@ -15,14 +15,13 @@ public class LocalPlatform {
         public static void main(String[] args) throws NodeValidationException {
 
 
-            LocalElasticSearch localElasticSearch = new LocalElasticSearch();
+            LocalElasticSearch.start();
 
-            LocalDatabases localDatabases = new LocalDatabases(localElasticSearch);
-            localDatabases.start();
+
 
             SpringApplication springApplication = new SpringApplication(DemoApplication.class);
 
-            springApplication.setDefaultProperties(Collections.singletonMap("server.port",5555));
+
 
             springApplication.run(args);
 

@@ -16,18 +16,8 @@ import java.nio.file.Path;
 
 public class LocalDatabases {
 
-    LocalElasticSearch localElasticSearch;
-
-    public LocalDatabases(LocalElasticSearch localElasticSearch) {
-        this.localElasticSearch = localElasticSearch;
-    }
-
-    public void start() throws NodeValidationException {
-
-        localElasticSearch.start();
 
 
-    }
 
 
 }
