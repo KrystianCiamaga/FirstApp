@@ -1,6 +1,7 @@
 package krystianciamaga.com.demo.mocks;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.elasticsearch.env.Environment;
 import org.elasticsearch.node.Node;
@@ -13,11 +14,12 @@ import java.nio.file.Path;
 
 
 
-
+@Getter
 public class LocalDatabases {
 
+    private LocalElasticSearch localElasticSearch;
 
-
-
-
+    public LocalDatabases(LocalElasticSearch localElasticSearch) {
+        this.localElasticSearch = localElasticSearch;
+    }
 }

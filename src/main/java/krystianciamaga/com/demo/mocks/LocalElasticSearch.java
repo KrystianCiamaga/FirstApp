@@ -19,8 +19,6 @@ import java.util.HashMap;
 
 public class LocalElasticSearch {
 
-
-
     public static void start() {
         Settings settings = Settings.builder()
                 .put("http.host", "localhost")
