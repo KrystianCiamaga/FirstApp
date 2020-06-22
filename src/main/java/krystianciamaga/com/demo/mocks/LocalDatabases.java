@@ -17,9 +17,12 @@ import java.nio.file.Path;
 @Getter
 public class LocalDatabases {
 
-    private LocalElasticSearch localElasticSearch;
 
-    public LocalDatabases(LocalElasticSearch localElasticSearch) {
-        this.localElasticSearch = localElasticSearch;
+
+    public  void start(){
+        LocalElasticSearch.start();
     }
+
+
+
 }
